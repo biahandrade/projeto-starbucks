@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <title>Starbucks</title>
+</head>
+
+<body>
+  <div class="circulo"></div>
+  <img class="logo" src="./assents/logo.png" alt="img-logo" />
+  <div class="conteudo">
+    <div class="texto">
+      <h2>
+        Isto não é apenas um café <br />
+        Isto é <strong>Starbucks</strong>
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus eos
+        delectus ab, nam adipisci quo ex excepturi incidunt aut! Praesentium
+        blanditiis minima mollitia animi aliquid perspiciatis reiciendis,
+        consectetur aperiam iusto.
+      </p>
+      <button>Ler Mais</button>
+    </div>
+    <div class="caixa-imagem"><img class="foto-grande" src="./assents/img1.png" alt="imagem-sorvete-verde" />
+    </div>
+  </div>
+  <footer class="caixa-fp">
+    <img class="fotos-pequenas" src="./assents/thumb1.png" alt="thumb-sorvete-verde" 
+    onclick="trocaImagem('./assents/img1.png'); trocaCor('#017143')">
+    <img class="fotos-pequenas" src="./assents/thumb2.png" alt="thumb-sorvete-pink" 
+    onclick="trocaImagem('./assents/img2.png'); trocaCor('#eb7495')">
+    <img class="fotos-pequenas" src="./assents/thumb3.png" alt="thumb-sorvete-rosa" 
+    onclick="trocaImagem('./assents/img3.png'); trocaCor('#d752b1')">
+  </footer>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
